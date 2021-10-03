@@ -1,0 +1,39 @@
+/* selector {
+    property: value;
+} */
+
+/* TAG SELECTORS */
+
+body {
+    background-color: #eaf6f6;
+}
+
+hr{
+    /*it is recommended to list the properties of an element in alphabetical order, to find the properties easily.*/
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+h3 {
+    color: #79B4B7;
+}
+
+/* CLASS SELECTORS */
+
+.heading1 {
+    color: #79B4B7;
+}
+
+/* CLASS SELECTORS */
+
+#heading2 {
+    color: #79B4B7;
+}
+
+/* id can be used only once for an element in an html code whereas, class can be used for group of elements */
+/* id can be used only for a single element, but a class can be same for multiple elements */
+/* an html element can have more than one class, but can only have unique(only one) id */
+/* usage of a class is more preferred than using an id */
